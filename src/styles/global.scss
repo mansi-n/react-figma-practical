@@ -1,0 +1,18 @@
+@import './common.scss';
+@import './variables.scss';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  // background: #FAFAFB;
+}
+html {
+  // font-size: 10px;
+  // 10px / 16px = 0.625 = 62.5%
+  // Percentage of user's browser font-size setting
+  // font-size: 62.5%;
+  // font-family: "DM Sans", sans-serif;
+  font-family: 'Poppins';
+  // background-color: #0062ff;
+}

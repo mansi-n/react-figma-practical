@@ -1,0 +1,130 @@
+.container-shape {
+  width: 1270px;
+  height: 205px;
+  flex-shrink: 0;
+  border-radius: 23px;
+  border: 1px solid #E2E2EA;
+}
+.ant-card {
+  padding: 5px;
+}
+
+.flexible-card-line {
+  .ant-card-head {
+    .ant-card-head-wrapper {
+        .ant-card-head-title {
+          .ant-card-meta {
+            .ant-card-meta-detail {
+              .ant-card-meta-title {
+                text-decoration: line-through;
+              }
+            }
+          }
+        }
+    }
+  }
+}
+.ant-card .ant-card-head-title {
+  color: #696974;
+  font-weight: 600;
+}
+
+.ant-card .ant-card-body {
+  padding: 0 30px 30px 5px;
+  margin-top: 15px;
+}
+
+.ant-card .ant-card-extra {
+  color: #696974;
+  font-weight: 600;
+}
+
+.tittle {
+  height: 36px;
+  position: relative;
+  width: 364px;
+}
+
+.tittle .dashboard {
+  color: #171625;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0.1px;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+}
+
+.tittle .caption {
+  color: #92929d;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 132px;
+  letter-spacing: 0.1px;
+  line-height: normal;
+  position: absolute;
+  top: 6px;
+  white-space: nowrap;
+}
+
+.box1 {
+  height: 205px;
+  width: 1270px;
+}
+
+.box1 .shape1 {
+  border: 1px solid;
+  border-color: #e2e2ea;
+  border-radius: 23px;
+  height: 207px;
+  width: 1272px;
+}
+
+.label {
+  height: 26px;
+  width: 48px;
+}
+
+.label .text-wrapper {
+  color: #686873;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  line-height: normal;
+  margin: 15px 0 0 20px;
+}
+
+.box2 {
+  height: 144px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.box2 .shape2 {
+  background-color: #e8dbdb;
+  border-radius: 20px;
+  height: 146px;
+  width: 402px;
+  margin: 15px 30px 5px 5px;
+}
+
+.team-name {
+  margin: 20px;
+}
+
+.team-name .text{
+  color: #171725;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.1px;
+}
+

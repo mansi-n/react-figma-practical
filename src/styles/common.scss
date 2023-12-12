@@ -1,0 +1,59 @@
+.box {
+  height: fit-content;
+  width: 360px;
+  flex-shrink: 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-top: 40px;
+  padding: 30px 20px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* align-content: center; */
+  flex-direction: column
+}
+
+.box .typo-text{
+  color: #92929D;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.user-input {
+  width: 320px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #F1F1F5;
+  background: #FAFAFB;
+  margin-top: 19px;
+}
+
+// .ant-btn {
+//   width: 320px;
+//   height: 38px;
+//   flex-shrink: 0;
+//   margin-bottom: 10px;
+// }
+
+.signInWrapper {
+  background-color: #0062ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+.terms {
+  color: white;
+  text-decoration: none;
+  margin-top: 25px;
+  gap: 5px;
+}

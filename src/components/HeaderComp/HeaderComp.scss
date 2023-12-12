@@ -1,0 +1,123 @@
+// .ant-layout-header 
+.header-wrapper {
+  width: 100%;
+  flex-shrink: 0;
+  background: #FFF;
+  box-shadow: 0px -1px 0px 0px #E2E2EA inset;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.team-member-profile {
+  display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-wrapper {
+  a {
+    text-decoration: none;
+  }
+}
+
+.ant-btn {
+  width: 86px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.header-right .ant-btn {
+  margin-right: 20px;
+}
+
+.header-right .ant-space {
+  margin-right: 20px;
+}
+
+.header-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  Input {
+    width: 86px;
+    height: 38px;
+    background: #f1f1f5;
+    border-radius: 10px;
+    transition: width 0.3s;
+    font-size: 14px;
+    text-align: center;
+    line-height: 38px;
+    color: #696974;
+    border: 1px solid #e0e0e3;
+    margin-right: 10px;
+    :focus {
+      width: 120px;
+      outline: none;
+      padding: 0 10px;
+    }
+  }
+}
+
+.av-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  :hover {
+    display: flex;
+  }
+}
+.avatar-shape {
+  z-index: 1;
+  flex-direction: column;
+  position: absolute;
+  top: 5px;
+  right: -10px;
+  // background: #911e1e;
+  border: 1px solid #f1f1f5;
+  box-shadow: 0 5px 15px rgba(68, 68, 79, 0.1);
+  border-radius: 8px;
+  color: #696974;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.avatar-wrapper {
+  display: flex;
+  width: 25px;
+  align-items: center;
+}
+
+.av-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+  width: 26px;
+  height: 26px;
+  border-radius: 26px;
+  background-color: #FFC542;
+}
+
+.profile-text {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+  background-color: #FFC542;
+}

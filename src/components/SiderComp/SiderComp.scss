@@ -1,0 +1,26 @@
+.teams-box-content {
+  margin: 40px 20px 10px 20px;
+}
+
+.ant-space-gap-col-large {
+  column-gap: 140px;
+}
+
+.team-name {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #1890ff;
+}
+
+.ant-btn {
+  width: fit-content;
+}
